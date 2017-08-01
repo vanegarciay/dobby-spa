@@ -2,7 +2,7 @@
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 .navbar-nav {
-    text-align: center;
+    text-align: $centrado;
     width: 100%;
 
     li {
@@ -15,7 +15,7 @@
     }
 
     li a {
-        color: white!important;
+        color: $blanco!important;
     }
 }
 
@@ -30,14 +30,60 @@
 
 .carousel-indicators {
     li {
-        border-color: #fff;
+        border-color: $blanco;
         background-color: #8B6C35;
     }
 }
 
 .tratamientos {
+    background-color: $main_color;
+    width: 100%;
+    padding-bottom: 50px;
+
     .spa-imagen img {
         border: 10px solid #DBBE84;
         margin-top: -40px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        text-align: justify;
+        padding: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        background-color: #DBBE86;
+        padding: 3px;
+    }
+}
+
+.welcome {
+    background-color: #F4F4F4;
+    width: 100%;
+    padding: 4em;
+
+    img {
+        border-radius: 50px;
+        padding: 2em;
+    }
+
+    p {
+        padding-left: 7em;
+        font-size: 1.1em;
+        padding-top: 7px;
+    }
+
+    i {
+        color: #A38674;
+    }
+
+    h2 {
+        color: #DA6B3E;
+        padding-bottom: 20px;
     }
 }
