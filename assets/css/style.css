@@ -59,4 +59,21 @@
     color: #DA6B3E;
     padding-bottom: 20px; }
 
+.about {
+  background-color: #4A3A3A;
+  width: 100%;
+  padding: 30px 80px; }
+  .about img {
+    border-radius: 30px;
+    padding: 20px; }
+  .about h2, .about p {
+    color: #DDBC8F; }
+  .about .separador {
+    display: relative; }
+    .about .separador i {
+      display: absolute;
+      background-color: #fff; }
+    .about .separador hr {
+      width: 50%; }
+
 /*# sourceMappingURL=style.css.map */
