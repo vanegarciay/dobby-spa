@@ -1,5 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Condensed");
+* {
+  font-family: 'Ubuntu Condensed', sans-serif; }
+
+.navbar-nav {
+  text-align: center;
+  width: 100%; }
+  .navbar-nav li {
+    display: inline-block;
+    float: none; }
+  .navbar-nav li:first-child a {
+    color: #ECA442 !important; }
+  .navbar-nav li a {
+    color: white !important; }
+
 #slider {
-  border-bottom: 2px solid black; }
+  border-bottom: 2px solid black;
+  margin-top: -20px; }
 
 .menu {
   background-color: #2F1F1F; }
@@ -7,5 +23,9 @@
 .carousel-indicators li {
   border-color: #fff;
   background-color: #8B6C35; }
+
+.tratamientos .spa-imagen img {
+  border: 10px solid #DBBE84;
+  margin-top: -40px; }
 
 /*# sourceMappingURL=style.css.map */

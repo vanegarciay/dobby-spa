@@ -1,5 +1,27 @@
+* {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.navbar-nav {
+    text-align: center;
+    width: 100%;
+
+    li {
+    display: inline-block;
+    float: none;
+    }
+
+    li:first-child a {
+        color: #ECA442!important;
+    }
+
+    li a {
+        color: white!important;
+    }
+}
+
 #slider {
     border-bottom: 2px solid black;
+    margin-top: -20px;
 }
 
 .menu {
@@ -10,5 +32,12 @@
     li {
         border-color: #fff;
         background-color: #8B6C35;
+    }
+}
+
+.tratamientos {
+    .spa-imagen img {
+        border: 10px solid #DBBE84;
+        margin-top: -40px;
     }
 }
