@@ -99,20 +99,69 @@
     }
 
     h2, p {
-        color: #DDBC8F;
+        color: $main-letter;
     }
 
-    .separador {
-    display: relative;
+    .separador_derecho i.fa {
+        color: $blanco;
+        float: $izquierda;
+        margin-top: -27px;
+    }
 
-    i {
-        display: absolute;
-        background-color: $blanco;
+    .separador_derecho hr {
+        width: $ancho-linea;
+        margin-left: $margin;
+    }
+
+    .separador_izquierdo i.fa {
+        color: $blanco;
+        float: $derecha;
+        margin-top: -27px;
+    }
+
+    .separador_izquierdo hr {
+        width: $ancho-linea;
+        margin-right: $margin;
+    }
+}
+
+.footer {
+    background-color: #2F1F1F;
+    width: 100%;
+    padding: 30px 70px;
+
+    img {
+        background-color: #BFB68D;
+        margin: 10px;
+        border: 5px solid #DE8660;
+    }
+
+    p, h1, h2, h3 {
+        color: $main-letter;
+    }
+
+    i, .email {
+        color: #D2683E;
+    }
+
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        font-weight: bold;
     }
 
     hr {
-        width: 50%;
+        padding: 10px;
+        width: 90%;
     }
+
+    i {
+        font-size: 2em;
+        float: left;
+        padding: 20px;
     }
 }
 
